@@ -1,15 +1,16 @@
 import 'package:curriculo/util/models/item.dart';
 import 'package:curriculo/util/strings.dart';
+import 'package:flutter/material.dart';
 
 List<Item> generateItems() {
   return [
-    Item(expandedValue: endereco, headerValue: labelEndereco),
-    Item(expandedValue: cidade, headerValue: labelCidade),
-    Item(expandedValue: estado, headerValue: labelEstado),
-    Item(expandedValue: pais, headerValue: labelPais),
-    Item(expandedValue: telefone, headerValue: labelTelefone),
-    Item(expandedValue: email, headerValue: labelEmail),
-    Item(expandedValue: cargo, headerValue: labelCargo),
-    Item(expandedValue: stack, headerValue: labelStack)
+    Item(expandedValue: const Text(endereco), headerValue: labelEndereco),
+    Item(expandedValue: const Text(cidade), headerValue: labelCidade),
+    Item(expandedValue: const Text(estado), headerValue: labelEstado),
+    Item(expandedValue: const Text(pais), headerValue: labelPais),
+    Item(expandedValue: const Text(telefone), headerValue: labelTelefone),
+    Item(expandedValue: const Text(email), headerValue: labelEmail),
+    Item(expandedValue: const Text(cargo), headerValue: labelCargo),
+    Item(expandedValue: const Text(stack), headerValue: labelStack)
   ];
 }

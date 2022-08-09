@@ -9,7 +9,7 @@ getExpantionPanel(Item item) {
       );
     },
     body: ListTile(
-      title: Text(item.expandedValue),
+      title: item.expandedValue,
     ),
     isExpanded: item.isExpanded,
   );

@@ -16,7 +16,7 @@ const String pais = 'Brasil';
 const String labelTelefone = 'Telefone';
 const String telefone = '+55 (16) 98857-5110';
 const String labelEmail = 'E-mail';
-const String email = 'vin1c1u92@gmai.com';
+const String email = 'vin1c1u92@gmail.com';
 const String labelCargo = 'Cargo Atual';
 const String cargo = 'Software Developer Pleno';
 const String labelStack = 'Stack Atual';
@@ -91,3 +91,14 @@ const String alura22 = 'Jenkins: integração contínua\nJulho/2022';
 const String labelAlura23 = 'Alura 23';
 const String alura23 =
     'Jenkins e Docker: Pipeline de entrega continua\nJulho/2022';
+const String labelIngles = 'Inglês';
+const String ingles = 'Avançado';
+const String labelPortugues = 'Português';
+const String portugues = 'Nativo';
+const String labelGithub = 'GitHub';
+const String githubName = 'Bifi92';
+const String githubLink = 'https://github.com/Bifi92';
+const String labelLinkedin = 'Linkedin';
+const String linkedinName = 'Vinicius Biffi';
+const String linkedinLink =
+    'https://www.linkedin.com/in/vinicius-biffi-94012552/';

@@ -1,6 +1,6 @@
+import 'package:curriculo/util/expansion_panel.dart';
 import 'package:curriculo/util/models/item.dart';
 import 'package:curriculo/widget/infos/item_list.dart';
-import 'package:curriculo/widget/infos/expansion_panel.dart';
 import 'package:flutter/material.dart';
 
 class InfosWidget extends StatefulWidget {

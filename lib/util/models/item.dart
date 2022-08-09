@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Item {
   Item({
     required this.expandedValue,
@@ -5,7 +7,7 @@ class Item {
     this.isExpanded = false,
   });
 
-  String expandedValue;
+  Widget expandedValue;
   String headerValue;
   bool isExpanded;
 }
