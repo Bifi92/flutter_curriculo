@@ -1,3 +1,4 @@
+import 'package:curriculo/util/strings.dart';
 import 'package:curriculo/util/widget_options.dart';
 import 'package:curriculo/widget/nav_drawer/nav_drawer.dart';
 import 'package:flutter/material.dart';
@@ -10,9 +11,9 @@ class Curriculo extends StatefulWidget {
 }
 
 class _CurriculoState extends State<Curriculo> {
-  int _selectedIndex = 0;
+  String _selectedIndex = labelInfo;
 
-  void _onItemTapped(int index) {
+  void _onItemTapped(String index) {
     setState(() {
       _selectedIndex = index;
     });
@@ -22,7 +23,7 @@ class _CurriculoState extends State<Curriculo> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Vinicius da Rocha Biffi'),
+          title: const Text(nome),
         ),
         drawer: montaDrawer(context, _onItemTapped),
         body: widgetOptions[_selectedIndex]);

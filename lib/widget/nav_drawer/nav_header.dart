@@ -1,3 +1,4 @@
+import 'package:curriculo/util/strings.dart';
 import 'package:flutter/material.dart';
 
 class NavHeader extends StatelessWidget {
@@ -9,9 +10,11 @@ class NavHeader extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.blue,
       ),
-      accountName: Text('Vinicius da Rocha Biffi'),
-      accountEmail: Text('vin1c1u92@gmail.com'),
-      currentAccountPicture: CircleAvatar(child: FlutterLogo()),
+      accountName: Text(nome),
+      accountEmail: Text(email),
+      currentAccountPicture: CircleAvatar(
+        backgroundImage: AssetImage('images/profile.jpg'),
+      ),
     );
   }
 }

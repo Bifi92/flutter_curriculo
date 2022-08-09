@@ -1,10 +1,13 @@
+import 'package:curriculo/util/strings.dart';
+import 'package:curriculo/widget/formacao/formacao.dart';
+import 'package:curriculo/widget/infos/info.dart';
 import 'package:flutter/material.dart';
 
-final List<Widget> widgetOptions = <Widget>[
-  const Text('1'),
-  const Text('2'),
-  const Text('3'),
-  const Text('4'),
-  const Text('5'),
-  const Text('6'),
-];
+final Map<String, Widget> widgetOptions = Map.unmodifiable({
+  labelInfo: const InfosWidget(),
+  labelFormacao: const FormacaoWidget(),
+  labelExperiencia: const Text(labelExperiencia),
+  labelLinguas: const Text(labelLinguas),
+  labelHabilidades: const Text(labelHabilidades),
+  labelContato: const Text(labelContato),
+});
