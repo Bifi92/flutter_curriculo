@@ -26,8 +26,9 @@ class _LinguasWidgetState extends State<LinguasWidget> {
         expansionCallback: (int index, bool isExpanded) {
           _atualizaExpanded(index, isExpanded);
         },
+        elevation: 4,
         children: _data.map<ExpansionPanel>((Item item) {
-          return getExpantionPanel(item);
+          return getExpantionPanel(item, context);
         }).toList(),
       ),
     );

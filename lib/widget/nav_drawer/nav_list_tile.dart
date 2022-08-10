@@ -9,6 +9,7 @@ class NavListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      dense: true,
       title: Text(titulo),
       onTap: () {
         onTap();

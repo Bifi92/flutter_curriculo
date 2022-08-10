@@ -3,8 +3,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
-      home: CurriculoApp(),
+    MaterialApp(
+      theme: ThemeData(),
+      darkTheme: ThemeData.dark(),
+      themeMode: ThemeMode.system,
+      home: const CurriculoApp(),
       debugShowCheckedModeBanner: false,
     ),
   );

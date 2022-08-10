@@ -7,9 +7,8 @@ class NavHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const UserAccountsDrawerHeader(
-      decoration: BoxDecoration(
-        color: Colors.blue,
-      ),
+      otherAccountsPictures: [Text(cargo)],
+      otherAccountsPicturesSize: const Size.square(150),
       accountName: Text(nome),
       accountEmail: Text(email),
       currentAccountPicture: CircleAvatar(
