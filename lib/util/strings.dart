@@ -1,6 +1,7 @@
 const String nome = 'Vinicius da Rocha Biffi';
 const String labelInfo = 'Info';
 const String labelFormacao = 'Formação';
+const String labelCursosAdicionais = 'Cursos Adicionais';
 const String labelExperiencia = 'Experiencia';
 const String labelLinguas = 'Línguas';
 const String labelHabilidades = 'Habilidades';
@@ -102,3 +103,34 @@ const String labelLinkedin = 'Linkedin';
 const String linkedinName = 'Vinicius Biffi';
 const String linkedinLink =
     'https://www.linkedin.com/in/vinicius-biffi-94012552/';
+const String labelSql = 'SQL(MySQL)';
+const String labelSqlServer = 'SQLServer';
+const String labelPlsql = 'PLSQL';
+const String labelJava = 'Java';
+const String labelC = 'C';
+const String labelPython = 'Python';
+const String labelGit = 'GIT';
+const String labelSvn = 'SVN';
+const String labelSpringBoot = 'SpringBoot';
+const String labelJsonXml = 'Json, XML, XML Schema, XSD';
+const String labelRest = 'REST service';
+const String labelReactJS = 'React JS';
+const String labelFlutter = 'Flutter';
+const String labelAndroidStudio = 'IDE AndroidStudio';
+const String labelEclipse = 'IDE Eclipse';
+const String labelVSCode = 'IDE VSCode';
+const String labelIntellij = 'IDE IntelliJ';
+const String labelTechnoSoftware =
+    'Software Developer\nTechno Software Ltda.\nJan/2017-Atual';
+const String technoSoftware1 =
+    'Como softwarehouse, tenho que lidar com novos desafios todos os dias.\n\n';
+const String technoSoftware2 =
+    'Trabalhei em um projeto de software de back office que fomos responsáveis por gerenciar as informações dos clientes como seu estoque, suas informações fiscais, gerar relatórios sobre as vendas, etc. Para esse projeto usamos Java6, OracleDB e SQLServer.\n\n';
+const String technoSoftware3 =
+    'Outro é um software gerenciador de depósitos, usado principalmente nos depósitos da Amazon no Brasil, onde somos responsáveis por melhorar e acompanhar cada passo desde o armazenamento até o envio dos produtos cadastrados no sistema, e gerar relatórios sobre suas etapas. Também temos módulos responsável por integrar as bases de dados dos clientes com as nossas. Para isso usamos Java8 e OracleDB.\n\n';
+const String technoSoftware4 =
+    'Atualmente estou em um projeto para uma empresa de recuperação de créditos. Para este projeto, precisamos manter as informações de clientes, informações de devedores, balanço dos gastos em relação a cada cliente, geração de notas fiscais e boletos para os clientes pagarem pelos serviços prestados. Para este projeto, utilizamos ReactJS, Java SpringBoot e Banco de dados SQLServer.';
+const String labelCompliance =
+    'Software Developer\nCompliance Soluções em Tecnologia e Serviços Ltda.\nJan/2016-Jan/2017';
+const String compliance =
+    'Ajudei a construir um software tributário focado em gerar e gerenciar documentos fiscais de acordo com a lei. Usamos Java para construir o frontend e gerar relatórios, e toda validação legal foi feita usando PLSQL. Também criamos um módulo responsável por integrar bancos de dados, reunindo os dados dos clientes e transformando-os de acordo com nosso mapeamento de dados.';

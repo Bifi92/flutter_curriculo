@@ -12,6 +12,8 @@ Drawer montaDrawer(BuildContext superContext, Function onItemTapped) {
         NavListTile(() => {onItemTapped(labelInfo)}, labelInfo, superContext),
         NavListTile(
             () => {onItemTapped(labelFormacao)}, labelFormacao, superContext),
+        NavListTile(() => {onItemTapped(labelCursosAdicionais)},
+            labelCursosAdicionais, superContext),
         NavListTile(() => {onItemTapped(labelExperiencia)}, labelExperiencia,
             superContext),
         NavListTile(
