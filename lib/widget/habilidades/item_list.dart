@@ -1,144 +1,43 @@
 import 'package:curriculo/util/models/item.dart';
 import 'package:curriculo/util/strings.dart';
-import 'package:flutter/material.dart';
+import 'package:curriculo/util/widget/slider_widget.dart';
 
 List<Item> generateItems() {
   return [
-    Item(expandedValue: sliderSql, headerValue: labelSql),
-    Item(expandedValue: sliderSqlServer, headerValue: labelSqlServer),
-    Item(expandedValue: sliderPlsql, headerValue: labelPlsql),
-    Item(expandedValue: sliderJava, headerValue: labelJava),
-    Item(expandedValue: sliderC, headerValue: labelC),
-    Item(expandedValue: sliderPython, headerValue: labelPython),
-    Item(expandedValue: sliderGit, headerValue: labelGit),
-    Item(expandedValue: sliderSvn, headerValue: labelSvn),
-    Item(expandedValue: sliderSpringBoot, headerValue: labelSpringBoot),
-    Item(expandedValue: sliderJsonXml, headerValue: labelJsonXml),
-    Item(expandedValue: sliderRest, headerValue: labelRest),
-    Item(expandedValue: sliderReactJS, headerValue: labelReactJS),
-    Item(expandedValue: sliderFlutter, headerValue: labelFlutter),
-    Item(expandedValue: sliderAndroidStudio, headerValue: labelAndroidStudio),
-    Item(expandedValue: sliderEclipse, headerValue: labelEclipse),
-    Item(expandedValue: sliderVSCode, headerValue: labelVSCode),
-    Item(expandedValue: sliderIntelliJ, headerValue: labelIntellij)
+    Item(expandedValue: getSlider(95, 100, 100, null), headerValue: labelSql),
+    Item(
+        expandedValue: getSlider(40, 100, 100, null),
+        headerValue: labelSqlServer),
+    Item(expandedValue: getSlider(90, 100, 100, null), headerValue: labelPlsql),
+    Item(expandedValue: getSlider(95, 100, 100, null), headerValue: labelJava),
+    Item(expandedValue: getSlider(50, 100, 100, null), headerValue: labelC),
+    Item(
+        expandedValue: getSlider(30, 100, 100, null), headerValue: labelPython),
+    Item(expandedValue: getSlider(80, 100, 100, null), headerValue: labelGit),
+    Item(expandedValue: getSlider(75, 100, 100, null), headerValue: labelSvn),
+    Item(
+        expandedValue: getSlider(60, 100, 100, null),
+        headerValue: labelSpringBoot),
+    Item(
+        expandedValue: getSlider(60, 100, 100, null),
+        headerValue: labelJsonXml),
+    Item(expandedValue: getSlider(60, 100, 100, null), headerValue: labelRest),
+    Item(
+        expandedValue: getSlider(50, 100, 100, null),
+        headerValue: labelReactJS),
+    Item(
+        expandedValue: getSlider(50, 100, 100, null),
+        headerValue: labelFlutter),
+    Item(
+        expandedValue: getSlider(45, 100, 100, null),
+        headerValue: labelAndroidStudio),
+    Item(
+        expandedValue: getSlider(60, 100, 100, null),
+        headerValue: labelEclipse),
+    Item(
+        expandedValue: getSlider(65, 100, 100, null), headerValue: labelVSCode),
+    Item(
+        expandedValue: getSlider(70, 100, 100, null),
+        headerValue: labelIntellij)
   ];
 }
-
-Slider sliderSql = Slider(
-  value: 95,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderSqlServer = Slider(
-  value: 40,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderPlsql = Slider(
-  value: 90,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderJava = Slider(
-  value: 95,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderC = Slider(
-  value: 50,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderPython = Slider(
-  value: 30,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderGit = Slider(
-  value: 80,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderSvn = Slider(
-  value: 75,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderSpringBoot = Slider(
-  value: 60,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderJsonXml = Slider(
-  value: 60,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderRest = Slider(
-  value: 60,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderReactJS = Slider(
-  value: 50,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderFlutter = Slider(
-  value: 50,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderAndroidStudio = Slider(
-  value: 45,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderEclipse = Slider(
-  value: 60,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderVSCode = Slider(
-  value: 65,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);
-
-Slider sliderIntelliJ = Slider(
-  value: 70,
-  max: 100,
-  divisions: 100,
-  onChanged: (double value) {},
-);

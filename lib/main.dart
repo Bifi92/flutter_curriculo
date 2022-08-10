@@ -4,9 +4,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      theme: ThemeData(),
-      darkTheme: ThemeData.dark(),
-      themeMode: ThemeMode.system,
+      theme: ThemeData.dark(),
       home: const CurriculoApp(),
       debugShowCheckedModeBanner: false,
     ),

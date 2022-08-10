@@ -25,7 +25,7 @@ class _CurriculoState extends State<Curriculo> {
         appBar: AppBar(
           title: const Text(nome),
         ),
-        drawer: montaDrawer(context, _onItemTapped),
+        drawer: montaDrawer(context, _onItemTapped, _selectedIndex),
         body: widgetOptions[_selectedIndex]);
   }
 }

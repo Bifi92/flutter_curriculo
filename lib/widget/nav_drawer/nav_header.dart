@@ -6,12 +6,18 @@ class NavHeader extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const UserAccountsDrawerHeader(
-      otherAccountsPictures: [Text(cargo)],
+    return UserAccountsDrawerHeader(
+      decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(20),
+          gradient: LinearGradient(colors: [
+            ThemeData.dark().primaryColorDark,
+            ThemeData.dark().primaryColorLight
+          ], begin: Alignment.bottomCenter, end: Alignment.topCenter)),
+      otherAccountsPictures: const [Text(cargo)],
       otherAccountsPicturesSize: const Size.square(150),
-      accountName: Text(nome),
-      accountEmail: Text(email),
-      currentAccountPicture: CircleAvatar(
+      accountName: const Text(nome),
+      accountEmail: const Text(email),
+      currentAccountPicture: const CircleAvatar(
         backgroundImage: AssetImage('images/profile.jpg'),
       ),
     );
