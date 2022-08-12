@@ -14,9 +14,8 @@ List<Item> generateItems() {
 
 InkWell linkGithub = const InkWell(
   onTap: _launchUrlGithub,
-  child: Text(githubName,
-      style:
-          TextStyle(decoration: TextDecoration.underline, color: Colors.blue)),
+  child:
+      Text(githubName, style: TextStyle(decoration: TextDecoration.underline)),
 );
 
 Future<void> _launchUrlGithub() async {
@@ -28,8 +27,7 @@ Future<void> _launchUrlGithub() async {
 InkWell linkLinkedin = const InkWell(
   onTap: _launchUrlLinkedin,
   child: Text(linkedinName,
-      style:
-          TextStyle(decoration: TextDecoration.underline, color: Colors.blue)),
+      style: TextStyle(decoration: TextDecoration.underline)),
 );
 
 Future<void> _launchUrlLinkedin() async {

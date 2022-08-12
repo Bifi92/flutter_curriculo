@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:curriculo/util/strings.dart';
 import 'package:curriculo/util/widget_options.dart';
 import 'package:curriculo/widget/nav_drawer/nav_drawer.dart';
@@ -26,6 +28,13 @@ class _CurriculoState extends State<Curriculo> {
           title: const Text(nome),
         ),
         drawer: montaDrawer(context, _onItemTapped, _selectedIndex),
-        body: widgetOptions[_selectedIndex]);
+        body: Center(
+          child: SizedBox(
+            width: 1000,
+            child: ClipRRect(
+                borderRadius: BorderRadius.circular(20),
+                child: widgetOptions[_selectedIndex]),
+          ),
+        ));
   }
 }
